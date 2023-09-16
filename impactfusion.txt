@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Fusion</title>
+    <style>
+        body {
+            font-family: 'Raleway', 'Libre Franklin', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #edf756; /* Dusty White background */
+        }
+        .header {
+            background-color: #ffebcd; /* Bright Blue header background */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5fffa; /* Blue Green container background */
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {   
+            text-align: center;
+            color: #000000; /* Dark Sand header text color */
+        }
+        .event-description {
+            text-align: justify;
+            margin-bottom: 20px;
+            color: #555; /* Slightly darker text color */
+        }
+        .event-description p {
+            margin: 10px 0;
+        }
+        .brochure {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .brochure img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px; /* Add rounded edges */
+        }
+        .video-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        video {
+            max-width: 90%;
+            height: auto;
+            border-radius: 30px; /* Add rounded edges */
+        }
+        .logos {
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center; /* Center align items horizontally */
+            align-items: center; /* Center align items vertically */
+        }
+        .logos img {
+            max-width: 200px; /* Reduced logo size */
+            height: auto;
+            margin: 0 10px; /* Add horizontal margin for spacing */
+        }
+        .header img {
+            max-width: 100px; /* Reduce header logo size */
+            height: auto;
+            vertical-align: middle; /* Align the logo vertically */
+        }
+        .event-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .event-link a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #51e2f5; /* Bright Blue button background */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+        }
+        .event-link a:hover {
+            background-color: #ffa8B6; /* Pink Sand on hover */
+        }
+        .association-text {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 40px;
+            color: #000000; /* Pink Sand text color */
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+            color: #555; /* Slightly darker text color */
+        }
+        /* Interactive navigation */
+        .navigation {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1;
+        }
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        .navigation li {
+            margin-right: 20px;
+        }
+        .navigation a {
+            text-decoration: none;
+            color: #333; /* Dark text color */
+            font-weight: bold;
+            transition: color 0.3s ease; /* Smooth color transition on hover */
+        }
+        .navigation a:hover {
+            color: #51e2f5; /* Bright Blue text color on hover */
+        }
+        .fun-background {
+         background: linear-gradient(red, yellow,blue,black);
+         background-size: 400% 400%;
+         animation-name: gradientAnimation; /* Specify the animation name here */
+         animation-duration: 20s; /* Set the animation duration */
+         animation-iteration-count: infinite; /* Make the animation repeat infinitely */
+         }
+         @keyframes gradientAnimation {
+         0% {
+        background-position: 0% 50%;
+        }
+        50% {
+        background-position: 100% 50%;
+        }
+        100% {
+        background-position: 0% 50%;
+        }
+        }
+        /* Improved Navigation Bar Styles */
+        .navbar {
+            background-color: #d8bfd8; /* Dark grey background color */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navbar li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #fff; /* White text color */
+            font-weight: bold;
+            transition: color 0.3s ease; /* Smooth color transition on hover */
+        }
+
+        .navbar a:hover {
+            color: #51e2f5; /* Bright Blue text color on hover */
+        }
+    </style>
+</head>
+<body class="fun-background">
+    <div class="header">
+        <img src="pes.png" alt="Event Logo">
+        <h1>2090 INNOVATE-2-SUSTAIN</h1>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#brochure">Brochures</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1 id="about">About the Event</h1>
+        <div class="event-description">
+            <p>
+                2090 INNOVATE-2-SUSTAIN Hackathon is a cutting-edge event that brings together innovators, developers, and problem solvers from around the world.
+                Join us for a weekend of creativity and collaboration, where you'll have the opportunity to work on real-world challenges and make a positive impact.
+            </p>
+            <p>
+                Whether you're a seasoned coder or just getting started, this hackathon welcomes participants of all skill levels. Get ready to network, learn, and build something incredible.
+            </p>
+        </div>
+        <h1 id="contact">Contact Information</h1>
+        <div class="contact-info">
+            <p>Email: contact@impactfusionhackathon.com</p>
+            <p>Akshay: +91 1234567890</p>
+            <p>Nishanth: +91 1234567890</p>
+            <p>Shreya: +91 1234567890</p>
+            <p>Venue: Pesu 52</p>
+        </div>
+        <div class="association-text">
+            In Association with:
+        </div>
+        <div class="logos">
+            <img src="kar_main_logo.png" alt="Logo 1">
+            <img src="giz-logo.gif" alt="Logo 2">
+            <img src="lok.png" alt="Logo 2">
+            <img src="best.png" alt="Logo 2">
+            <img src="kok.jpeg" alt="Logo 2">
+        </div>
+        <h1 id="brochure">Event Brochures</h1>
+        <div class="brochure">
+            <img src="1.png" alt="Event Brochure 1">
+            <img src="2.png" alt="Event Brochure 2">
+        </div>
+        <h1 id="video">Event Video</h1>
+        <div class="video-container">
+            <video controls autoplay loop muted>
+                <source src="faculty of manag.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="event-link">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxdmoecOSQ2RyOO77ci7o-JibW-5os237yboCO3Z0ArUuxJQ/viewform">Register for the hackathon</a>
+        </div>
+    </div>
+    <footer style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+        &copy; 2023 2090 Innovate-2-sustain. All rights reserved.
+    </footer>
+</body>
+</html>
